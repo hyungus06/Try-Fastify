@@ -1,28 +1,28 @@
 {
-  "name": "try-fastify",
-  "version": "1.0.0",
-  "description": "Node project for testing the use of the Fastify framework",
-  "keywords": [
-    "JavaScript",
-    "Node.js",
-    "Fastify"
-  ],
-  "homepage": "https://github.com/hyungus06/Try-Fastify#readme",
-  "bugs": {
-    "url": "https://github.com/hyungus06/Try-Fastify/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyungus06/Try-Fastify.git"
-  },
-  "license": "MIT",
-  "author": "Kim Donghyun",
-  "type": "commonjs",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "fastify": "^5.12.5"
-  }
+    "name": "try-fastify",
+    "version": "1.0.0",
+    "description": "Node project for testing the use of the Fastify framework",
+    "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Fastify"
+    ],
+    "homepage": "https://github.com/hyungus06/Try-Fastify#readme",
+    "bugs": {
+        "url": "https://github.com/hyungus06/Try-Fastify/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hyungus06/Try-Fastify.git"
+    },
+    "license": "MIT",
+    "author": "Kim Donghyun",
+    "type": "commonjs",
+    "main": "server.js",
+    "scripts": {
+        "dev": "node src/server.js"
+    },
+    "dependencies": {
+        "fastify": "^5.12.5"
+    }
 }
